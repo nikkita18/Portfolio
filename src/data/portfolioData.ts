@@ -53,7 +53,6 @@ export const SKILL_GROUPS: SkillGroup[] = [
     iconName: 'Globe',
     skills: [
       { name: 'Python Flask', note: 'REST APIs & Jinja2 templating' },
-      { name: 'Node.js & Vite', note: 'Modern tooling & frontend workflows' },
       { name: 'Responsive Web Design', note: 'Mobile-first architectures' },
       { name: 'RESTful API Integration', note: 'Client-server communications' },
       { name: 'Web Audio API & Canvas', note: 'Interactive synthesizers & games' }
@@ -189,7 +188,7 @@ export const DEV_PROJECTS: DevProject[] = [
     tagline: 'Interactive supernatural trivia web app with Flask & dynamic scoring',
     description: 'A themed supernatural trivia and lore sanctum based on The Vampire Diaries, featuring multi-tiered quiz challenges, lore archives, bloodline leaderboards, and atmospheric audio.',
     fullDescription: 'Built with Python Flask backend routing and dynamic frontend templating. Features multi-round trivia question banks, live streak tracking, custom animated Mystic Falls UI, dynamic scoring algorithms, and seamless cloud deployment on Vercel.',
-    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Python Flask', 'Vercel'],
+    technologies: ['HTML5', 'CSS3', 'Python Flask', 'Vercel'],
     category: 'dev',
     githubUrl: 'https://github.com/nikkita18/tvd-quiz-app',
     liveUrl: 'https://tvd-quiz-app.vercel.app',
